@@ -1,0 +1,3 @@
+ ./ffmpeg -f gdigrab -i "desktop" -vcodec libx264  -acodec aac -f flv rtmp://localhost:1935/live/home
+
+./ffmpeg -re -stream_loop -1 -i 全息UI.mp4 -vcodec copy  -acodec copy -f flv rtmp://111.231.242.65:1935/live/home

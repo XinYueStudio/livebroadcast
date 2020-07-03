@@ -1,0 +1,1 @@
+ ./ffmpeg -f gdigrab -i "desktop" -vcodec libx264 -preset ultrafast -acodec libmp3lame -ar 44100 -ac 1 -f flv rtmp://127.0.0.1:1935/hls/test
